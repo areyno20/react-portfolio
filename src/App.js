@@ -7,10 +7,14 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 import Resume from './components/resume';
 import Footer from './components/footer';
+import image from './images/background.jpg';
 
 export default function App() {
   return (
-    <main className='text-black bg-stone-700'>
+    <main style={{backgroundImage:`url(${image})`,
+                  backgroundRepeat:"no-repeat",
+                  backgroundSize:"cover"}}
+                  className='text-black'>
 
     <Navbar />
     <About />
