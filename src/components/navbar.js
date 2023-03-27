@@ -1,62 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const Nav = styled.nav`
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-`;
-
-const NavBrand = styled.a`
-  color: #fff;
-  font-size: 1.5rem;
-  text-decoration: none;
-`;
-
-const NavLinks = styled.ul`
-  display: flex;
-  list-style: none;
-  margin: 0.2rem;
-  padding: 0.5rem;
-`;
-
-const NavItem = styled.li`
-  margin-left: 20px;
-`;
-
-const NavLink = styled.a`
-  color: #fff;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-
-const Navbar = () => {
-  return (
-    <Nav className='bg-gray-400 top-0 z-10 text-white justify-right lg:sticky sm:sticky md:sticky md:mr-auto md:border-l md:border-gray-700'>
-      <NavBrand href="#">Aidan Reynolds</NavBrand>
-      <NavLinks>
-        <NavItem>
-          <NavLink href="#about">About</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#skills">Skills</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#projects">Projects</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#resume">Resume</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="#contact">Contact</NavLink>
-        </NavItem>
-      </NavLinks>
-    </Nav>
-  );
-};
-
-export default Navbar;
+export default function Navbars() {
+    return (
+        <nav className='flex flex-col bg-gray-400 top-0 z-10 text-white justify-right md:sticky md:mr-auto md:border-l md:border-gray-700' role='navigation'>
+            <a href='#' className='pl-8'>
+                <h1 className='text-2xl'>Aidan Reynolds</h1>
+            </a>
+            <div className='md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
+                <a href='#about' className='p-4'>About</a>
+                <a href='#skills' className='p-4'>Skills</a>
+                <a href='#projects' className='p-4'>Projects</a>
+                <a href='#resume' className='p-4'>Resume</a>
+                <a href='#contact' className='p-4'>Contact</a>
+            </div>
+        </nav>
+    )
+}
