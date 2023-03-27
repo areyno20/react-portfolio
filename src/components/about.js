@@ -6,7 +6,7 @@ export default function About(){
     return(
         <section id="about" className='my-5'>
             <div className='my-10 flex flex-wrap justify-center bg-gray-600 rounded-lg shadow-lg p-3 text-white rounded shadow-lg '>
-                <div className='my-32 w-1/3 sm:w-1/2 md:w-1/3 lg:w-1/2 p-4 justify-center rounded'>
+                <div className='my-32 sm:w-1/2 md:w-1/3 lg:w-1/2 p-4 justify-center rounded'>
                     <div className='bg-gray-400 p-10 rounded'>
                         <h3 className='text-xl text-white font-bold'>About Me</h3>
                         <p className='text-white'>Full Stack Web Developer with a background in Chemistry and high interest in music production. Complete time management skills, dedication and amazing team player. I have very high attention to detail and hold myself to the utmost standard as an individual.</p>
