@@ -1,10 +1,15 @@
 import React from 'react';
+import resumeFile from '../files/myresume.pdf';
 
 export default function Resume() {
-    <section id="resume" className=' bg-gray-600 shadow-lg p-4 text-white'>
-        <div className=''>
-            <h1 className='text-2xl p-2 text-white font-bold bg-gray-600 w-1/6'>Resume</h1>
-            <embed className='w-1/2' src='./files/myresume/pdf' type='application/pdf' />
-        </div>
-    </section>
-}
+    return (
+        <section id="resume" className='my-5'>
+            <div className='justify-center shadow-xl  p-4'>
+                <div>
+                    <embed src={resumeFile} width="100%" height="1000px" />
+                </div>
+            </div>
+        </section>
+      );
+};
+
