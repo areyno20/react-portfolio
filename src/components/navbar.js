@@ -36,7 +36,7 @@ const NavLink = styled.a`
 
 const Navbar = () => {
   return (
-    <Nav className='bg-gray-400 top-0 z-10 text-white justify-right md:sticky md:mr-auto md:border-l md:border-gray-700'>
+    <Nav className='bg-gray-400 top-0 z-10 text-white justify-right lg:sticky sm:sticky md:sticky md:mr-auto md:border-l md:border-gray-700'>
       <NavBrand href="#">Aidan Reynolds</NavBrand>
       <NavLinks>
         <NavItem>
