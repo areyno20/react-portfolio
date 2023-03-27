@@ -6,7 +6,7 @@ export default function Projects() {
         <section id="projects" className='my-5'>
             <div className='flex flex-wrap justify-center shadow-xl'>
                 {projects.map((projects) => (
-                <div className='w-1/2 md:w-1/3 lg:w-1/2 p-4'>
+                <div className='md:w-1/3 lg:w-1/2 p-4'>
                     <div className='bg-gray-600 rounded-lg shadow-lg p-3'>
                         <h3 className='text-xl text-white font-bold'>{projects.name}</h3>
                         <p className='text-white'>{projects.description}</p>
