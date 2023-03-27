@@ -4,7 +4,7 @@ import React from 'react';
 export default function About(){
 
     return(
-        <section className='my-5'>
+        <section id="about" className='my-5'>
             <div className='my-10 flex flex-wrap justify-center bg-gray-600 rounded-lg shadow-lg p-5 text-white rounded '>
                 <div className='w-1/3 md:w-1/3 lg:w-1/3 p-4 justify-center rounded'>
                     <div className='bg-gray-400 p-10 rounded'>

@@ -23,22 +23,22 @@ export default function Contact() {
     }
 
     return (
-        <section className='my-5'>
-            <div className='flex flex-wrap justify-center'>
+        <section id="contact" className='my-5'>
+            <div className=''>
                 <div className='w-1/2 md:w-1/3 lg:w-1/2 p-10 justify-center'>
                     <div className='bg-gray-400 p-6 justify-center'>
                         <h3 className='text-xl text-white font-bold'>Contact Me</h3>
                         <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
-                            <p>
+                            <p className='text-l text-white font-bold p-2 m-2'>
                                 <label>Your Name: <input type="text" name="name" value={name} onChange={e => setName(e.target.value)} /></label>
                             </p>
-                            <p>
+                            <p className='text-l text-white font-bold p-2 m-2'>
                                 <label>Your Email: <input type="email" name="email" value={email} onChange={e => setEmail(e.target.value)} /></label>
                             </p>
-                            <p>
+                            <p className='text-l text-white font-bold p-2 m-2'>
                                 <label>Message: <textarea name="message" value={message} onChange={e => setMessage(e.target.value)} /></label>
                             </p>
-                            <p>
+                            <p id="send" className=''>
                                 <button type="submit">Send</button>
                             </p>
                         </form>
