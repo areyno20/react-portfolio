@@ -3,10 +3,10 @@ import React from 'react';
 
 export default function Footer(){
     return (
-        <footer id="footer" className='flex flex-col bg-gray-400 top-0 z-10 text-white justify-right md:sticky'>
-        <div class="flex flex-col bg-gray-400 top-0 z-10 text-white justify-right md:sticky">
-            <div class="row">
-                <div class="footer-content">
+        <footer id="footer" className=' bg-gray-400 shadow-lg p-3 text-white justify-center'>
+        <div class="bg-gray-400 top-0 text-white justify-center">
+            <div className="justify-center flex flex-wrap rounded" class="row">
+                <div className="" class="footer-content">
                     <div class="row">
                         <div class="col-6">
                             <div class="list-unstyled">
