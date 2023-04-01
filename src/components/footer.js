@@ -1,40 +1,40 @@
 import React from 'react';
 
 
-export default function Footer(){
+export default function Footer() {
     return (
         <footer id="footer" className=' bg-gray-400 shadow-lg p-3 text-white justify-center'>
-        <div class="bg-gray-400 top-0 text-white justify-center justify-center flex flex-wrap">
-            <div className="" class="row">
-                <div className="" class="footer-content">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="list-unstyled">
-                                 <div class="container pt-9">
-                                  <div class="flex justify-center mb-9">
+        <div className="bg-gray-400 top-0 text-white justify-center justify-center flex flex-wrap">
+            <div className="row">
+                <div className="footer-content">
+                    <div className="row">
+                        <div className="col-6">
+                            <div className="list-unstyled">
+                                 <div className="container pt-9">
+                                  <div className="flex justify-center mb-9">
                                     <a  href="https://github.com/areyno20" 
                                         aria-label="Homepage" 
-                                        class="mr-9 text-gray-800"
+                                        className="mr-9 text-gray-800"
                                         title="GitHub">
                                     <svg 
                                         aria-hidden="true" 
                                         focusable="false"
                                         data-prefix="fab"
-                                        class="svg-inline--fa octicon-mark-github" 
+                                        className="svg-inline--fa octicon-mark-github" 
                                         height="24" 
                                         version="1.1" 
                                         viewBox="0 0 16 20" 
                                         width="24">
-                                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                                    <path fillRule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
                                     </svg>
                                     </a>
-                                    <a href="https://www.facebook.com/aidan.reynolds3/" class="mr-9 text-gray-800">
+                                    <a href="https://www.facebook.com/aidan.reynolds3/" className="mr-9 text-gray-800">
                                       <svg
                                         aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
                                         data-icon="facebook-f"
-                                        class="svg-inline--fa fa-facebook-f w-2.5"
+                                        className="svg-inline--fa fa-facebook-f w-2.5"
                                         role="img"
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 320 512"
@@ -45,13 +45,13 @@ export default function Footer(){
                                         ></path>
                                       </svg>
                                     </a>
-                                    <a href="https://www.instagram.com/thebestreynolds/" class="mr-9 text-gray-800">
+                                    <a href="https://www.instagram.com/thebestreynolds/" className="mr-9 text-gray-800">
                                       <svg
                                         aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
                                         data-icon="instagram"
-                                        class="svg-inline--fa fa-instagram w-3.5"
+                                        className="svg-inline--fa fa-instagram w-3.5"
                                         role="img"
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 448 512"
@@ -62,13 +62,13 @@ export default function Footer(){
                                         ></path>
                                       </svg>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/aidan-reynolds-638386226/" class="mr-9 text-gray-800">
+                                    <a href="https://www.linkedin.com/in/aidan-reynolds-638386226/" className="mr-9 text-gray-800">
                                       <svg
                                         aria-hidden="true"
                                         focusable="false"
                                         data-prefix="fab"
                                         data-icon="linkedin-in"
-                                        class="svg-inline--fa fa-linkedin-in w-3.5"
+                                        className="svg-inline--fa fa-linkedin-in w-3.5"
                                         role="img"
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 448 512"
@@ -81,10 +81,9 @@ export default function Footer(){
                                     </a>
                                   </div>
                                   <div
-                                    class="bg-stone-300 p-4 text-center text-neutral-700 dark:bg-stone-700 dark:text-neutral-200">
+                                    className="bg-stone-300 p-4 text-center text-neutral-700 dark:bg-stone-700 dark:text-neutral-200">
                                     © 2023 Copyright:
-                                    <a class="text-neutral-800 dark:text-neutral-400" href="https://tailwind-elements.com/"> Aidan Reynolds</a
-                                    >
+                                    <a className="text-neutral-800 dark:text-neutral-400" href="https://tailwind-elements.com/"> Aidan Reynolds</a>
                                     </div>
                                 </div>
                             </div>
