@@ -1,9 +1,9 @@
-import bakery from './images/bakery.png';
-import social from './images/social.png';
-import JATE from './images/JATE.png';
-import readmegen from './images/readmegen.png';
-import notes from './images/notes.png';
-import stockgraph from './images/stockgraph.png';
+import bakery from '../images/bakery.png';
+import social from '../images/social.png';
+import JATE from '../images/JATE.png';
+import earthify from '../images/earthify.png';
+import notes from '../images/notes.png';
+import stockgraph from '../images/stockgraph.png';
 
 export const projects = [
     {
@@ -22,24 +22,24 @@ export const projects = [
     },
     {
         id: '3',
+        name: 'Earthify',
+        description: 'This is a carbon footprint calculator that allows the user to calculate their carbon footprint. It uses user input and then calculates the users carbon footprint based on the data. It uses React, Javascript, GraphQL, and MongoDB. ',
+        image: earthify,
+        link: 'https://the-manhattan-project.herokuapp.com/'
+    },
+    {
+        id: '4',
         name: 'Social Network API',
         description: 'This is an API that is created for a social network. It allows users to share their thoughts, add friends, react to others thoughts and update their information. It uses MongoDB to contain the information in the database and express.js for routing, as well as insomnia doing the seeding of the data.',
         image: social,
         link: 'https://github.com/areyno20/Social-Network-API'
     },
     {
-        id: '4',
+        id: '5',
         name: 'Text Editor',
         description: 'This application is a simple text editor that can be used offline. It uses an existing text editor application but adds certain funcionalities that were not present prior.',
         image: JATE,
         link: 'https://just-another-text-editor.herokuapp.com/'
-    },
-    {
-        id: '5',
-        name: 'Readme Generator',
-        description: 'This is a simple readme generator that is created using node.js. It uses the inquirer package to ask the user questions and then creates a readme file based on the answers given.',
-        image: readmegen,
-        link: 'https://github.com/areyno20/README-Generator'
     },
     {
         id: '6',
