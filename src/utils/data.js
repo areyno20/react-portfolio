@@ -11,7 +11,7 @@ export const projects = [
         name: 'Stocktistics',
         description: 'This is a stock market application that allows the user to view the current stock prices of the top 100 companies. It uses the IEX Cloud API to get the stock data and then displays it on the page.',
         image: stockgraph,
-        link: 'https://areyno20.github.io/Stocktistics/'
+        link: 'https://stocktistics.herokuapp.com/login'
     },
     {
         id: '2',
