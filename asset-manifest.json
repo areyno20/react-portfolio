@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.0a9b6a87.css",
-    "main.js": "/react-portfolio/static/js/main.99286cb9.js",
+    "main.js": "/react-portfolio/static/js/main.9be32c00.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/earthify.png": "/react-portfolio/static/media/earthify.aa7e9f7071c0d5a5b253.png",
     "static/media/bakery.png": "/react-portfolio/static/media/bakery.611d56c9033febc5c42e.png",
     "static/media/background.jpg": "/react-portfolio/static/media/background.dba020c7968cb8b01024.jpg",
+    "static/media/myresume.pdf": "/react-portfolio/static/media/myresume.5858707a8c4e1c086420.pdf",
     "static/media/notes.png": "/react-portfolio/static/media/notes.a64941ebdb91394f292b.png",
-    "static/media/myresume.pdf": "/react-portfolio/static/media/myresume.9a1a01a0d29048f0eef9.pdf",
     "static/media/social.png": "/react-portfolio/static/media/social.31ba71188316d6f26b3e.png",
     "static/media/myface.jpg": "/react-portfolio/static/media/myface.259ad67785d85cb476b2.jpg",
     "static/media/stockgraph.png": "/react-portfolio/static/media/stockgraph.3b693f909b171ba559a8.png",
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.e3670be03cdfafefbfa8.png",
     "index.html": "/react-portfolio/index.html",
     "main.0a9b6a87.css.map": "/react-portfolio/static/css/main.0a9b6a87.css.map",
-    "main.99286cb9.js.map": "/react-portfolio/static/js/main.99286cb9.js.map",
+    "main.9be32c00.js.map": "/react-portfolio/static/js/main.9be32c00.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a9b6a87.css",
-    "static/js/main.99286cb9.js"
+    "static/js/main.9be32c00.js"
   ]
 }
